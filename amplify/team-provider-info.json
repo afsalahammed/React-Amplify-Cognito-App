@@ -1,0 +1,47 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-apiotpauth-dev-112032-authRole",
+      "UnauthRoleArn": "arn:aws:iam::388388265859:role/amplify-apiotpauth-dev-112032-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::388388265859:role/amplify-apiotpauth-dev-112032-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+      "UnauthRoleName": "amplify-apiotpauth-dev-112032-unauthRole",
+      "StackName": "amplify-apiotpauth-dev-112032",
+      "StackId": "arn:aws:cloudformation:ap-south-1:388388265859:stack/amplify-apiotpauth-dev-112032/fc90cac0-380a-11ee-8d67-02dff94f18a2",
+      "AmplifyAppId": "d2hsyhnzdicqo4",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-apiotpauth-dev-112032-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-apiotpauth-dev-112032-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "apiauth": {}
+      },
+      "function": {
+        "apiauthCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+          "s3Key": "amplify-builds/apiauthCreateAuthChallenge-3943784e703869784767-build.zip"
+        },
+        "apiauthDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+          "s3Key": "amplify-builds/apiauthDefineAuthChallenge-4a33695154732f305963-build.zip"
+        },
+        "apiauthPreSignup": {
+          "deploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+          "s3Key": "amplify-builds/apiauthPreSignup-50445451386d38346d30-build.zip"
+        },
+        "apiauthVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+          "s3Key": "amplify-builds/apiauthVerifyAuthChallengeResponse-74315455336873735654-build.zip"
+        },
+        "apiauthcontrol": {
+          "deploymentBucketName": "amplify-apiotpauth-dev-112032-deployment",
+          "s3Key": "amplify-builds/apiauthcontrol-6b5365716e5044486a53-build.zip"
+        }
+      },
+      "api": {
+        "apiauthapi": {}
+      }
+    }
+  }
+}
