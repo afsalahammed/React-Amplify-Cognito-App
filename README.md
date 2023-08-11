@@ -61,6 +61,8 @@ Now the App will be automatically provisioned, built, and deployed by AWS Amplif
 ![2023-08-07_18-54-234e861b4f-7cc3-4ae8-b31b-73fea6549eb8](https://github.com/afsalahammed/amplify_cognito_app/assets/97507771/b0818746-1fff-4983-984e-b5dfa0b42648)   
 
 
+![image](https://github.com/afsalahammed/React-Amplify-Cognito-App/assets/97507771/1d254d3f-e54b-4272-8bd5-9a8a31ab1398)
+
 Docs:
 
 https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-lambda-challenge.html
