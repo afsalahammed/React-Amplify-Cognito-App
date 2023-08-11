@@ -50,6 +50,12 @@ Now the App will be automatically provisioned, built, and deployed by AWS Amplif
 
 ![2023-08-07_18-54-234e861b4f-7cc3-4ae8-b31b-73fea6549eb8](https://github.com/afsalahammed/amplify_cognito_app/assets/97507771/b0818746-1fff-4983-984e-b5dfa0b42648)
 
+6.) Create Authorizer in API Gateway: Goto API Gateway in AWS developer console and select the API created(apiauthapi). Add new Authorizer with Type 'Cognito' and select the Congnito User Pool name 'apiauthpool'. update Token source as 'Authorization'.
+
+7.) Add Authorizer to API: Goto API Gateway in AWS developer console, select the API 'apiauthapi' and go to Resources. Select 'Any' --> Method Request --> edit Authorization and select the previously created Authorizer name from the dropdown menu.
+
+8.) From Actions dropdown menu select Deploy API.   
+
 
 Docs:
 
